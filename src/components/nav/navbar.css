@@ -1,6 +1,7 @@
 * {
     margin: 0;
     border-style: 0;
+    
 }
 .animated-icon1,
 .animated-icon2,
@@ -175,19 +176,18 @@ a {
     color: white;
 }
 a:hover {
-    background-color: #2d7ef7;
+    outline: #2d7ef7;
     width: 180px;
     border-radius: 5px;
 }
 #class-show {
     width: 50vh;
+    border-radius: 10px;
 }
-img {
-  height: 20rem;
-  width: 15rem;
- margin-top: -80px;
- margin-left: -20px;
- position: relative;
 
+nav {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: transparent;
 }
-  
